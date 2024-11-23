@@ -1,10 +1,8 @@
 from tkinter import *
-from tkinter import ttk
 from tkinter.messagebox import Message, ERROR
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 import matplotlib.pyplot as plt
 import numpy as np
-from plot_render import get_plot, render_plot
+from lab4.plot_render import render_plot
 from aproximation import back_interpolation
 
 def f(x: np.ndarray):
